@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
+    --red:#ae2727;
     --green:#27ae60;
     --dark-color:#219150;
+    --dark-red:#912121;
     --black:#444;
     --light-color:#666;
     --border:.1rem solid rgba(0,0,0,.1);
@@ -69,12 +71,12 @@ section{
     border:var(--border);
 }
 
-.btn{
+/* .btn{
     margin-top: 1rem;
     display:inline-block;
     padding:.9rem 3rem;
     border-radius: .5rem;
-    color:#fff;
+    color:rgb(44, 174, 35);
     background:var(--green);
     font-size: 1.7rem;
     cursor: pointer;
@@ -84,7 +86,21 @@ section{
 .btn:hover{
     background:var(--dark-color);
 }
+.btnd{
+    margin-top: 1rem;
+    display:inline-block;
+    padding:.9rem 3rem;
+    border-radius: .5rem;
+    color:rgb(215, 30, 30);
+    background:var(--red);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
 
+.btnd:hover{
+    background:var(--dark-red);
+}  */
 .header .header-1{
     background:#fff;
     padding:1.5rem 9%;
